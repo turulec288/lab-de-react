@@ -1,7 +1,12 @@
 function Title (){
 
+const heading= "Say hello to ReactJS"
 
-    return <h1>Say hello to ReactJS</h1>
+    return<div className="title">
+
+        <h1>{heading}</h1>
+        
+        </div>
 }
 
 export default  Title

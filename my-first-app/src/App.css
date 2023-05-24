@@ -36,31 +36,51 @@
     transform: rotate(360deg);
   }
 }
- nav{
-
+ .nav{
+  
   display: flex;
+  justify-content: space-between;
   color: white;
-  padding: 5px 20px;
-  box-shadow: 0px 1px 2px gray;
+ 
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+
   
 }
  .mainDiv{
-  text-align: start;
+  
+  /* text-align: start; */
+  /* box-sizing: content-box; */
   background-repeat: no-repeat;
   background-size : cover;
   padding-bottom: 450px;
-  background-image: url('https://e1.pxfuel.com/desktop-wallpaper/595/427/desktop-wallpaper-js-posted-by-samantha-johnson-reactjs.jpg');
+  background-image: url('https://e1.pxfuel.com/desktop-wallpaper/595/427/desktop-wallpaper-js-posted-by-samantha-johnson-reactjs.jpg') ;
+  max-width: 80%;
+  height: 30px;
+  justify-content: center;
  }
 
  .whiteFount{
   color: white;
  }
 
-.box-Father{
-  padding: 100px;
+.flex-container{
+  /* padding: 100px; */
+  /* border :1px solid black; */
   display: flex;
-  border :1px solid black;
+  justify-content: center;
+  max-width: 80%;
+  
+
 }
+
+.title, .paragraph{
+  text-align: center;
+}
+
 
  /* .box{ 
 flex-direction: row;
